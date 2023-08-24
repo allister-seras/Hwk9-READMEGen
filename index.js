@@ -100,6 +100,8 @@ function init () {
           {name: "Apache"},
           {name: "MIT"},
           {name: "GNU"},
+          {name: "ISC"},
+          {name: "Perl"},
           {name: "None"},
         ]
       },
