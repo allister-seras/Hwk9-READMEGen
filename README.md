@@ -10,7 +10,8 @@
   ## Description
   This application is designed to allow programmers to quickly and easily generate a README.md file right from their terminal using Node.js.
 
-  ![A screenshot of this terminal with the questions and answers to the prompts.](./assets/image.png)
+   ![A screenshot of this terminal with the questions and answers to the prompts.](https://github.com/allister-seras/Hwk9-READMEGen/assets/127648521/04197f20-3bc8-4398-8645-f646430dcee4)
+
 
   ## Installation
   N/A
