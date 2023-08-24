@@ -94,8 +94,8 @@ function init () {
       },
       {
         type: "list",
-        name: "liscense",
-        message: "What licsense was used for this project?",
+        name: "license",
+        message: "What license was used for this project?",
         choices: [
           {name: "Apache"},
           {name: "MIT"},
@@ -105,7 +105,14 @@ function init () {
       },
     ])
     .then((response) => {
-      console.log(repsonse);
+      fs.writeFile("newREADME.md", generateMarkdown(response), (err) => {
+        if (err)
+          console.log(err);
+        else {
+          console.log("Your README has successfully been generated.");
+        }
+      })
+
     });
 }
 
